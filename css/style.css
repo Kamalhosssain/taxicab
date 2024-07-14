@@ -1,0 +1,332 @@
+/*-------------------------------------
+    Template Name: Maxon Agency Bootstrap 4 Template
+    Description: Maxon is the most Enticing, Creative and Modern agency template
+    Version: 1.0
+    Tags: agency, shop, vendor, industry, cleaning, company
+---------------------------------------*/
+/**
+ * Fonts 
+ * Roboto & Popins
+ */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:400,500,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #6c6c6f;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+}
+/*header start*/
+header{
+  background-color: #162b45;
+}
+.nav {
+  background-color: #162b45;;
+}
+.logo_img{}
+.logo_img img {
+ 
+}
+
+.c_menu{}
+
+.c_menu ul{}
+.c_menu ul li {
+  margin-right: 15px;
+}
+.c_menu ul li a {
+ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  
+}
+.c_menu ul li:last-child{
+  margin-right: 0;
+}
+.c_menu ul li a:hover{
+ border-bottom: 2px solid darkgreen;
+ color: aquamarine;
+ transition: .33s;
+}
+/*header end*/
+/*banner start*/
+.banner {
+ 
+  padding: 80px 0px 100px;
+  background-color: rgb(214, 216, 218);
+}
+.b_text{
+
+}
+.b_h1{
+  color: black;
+  font-size: 42px;
+}
+.b_p {
+  font-size: 20px;
+  color: black;
+  margin: 30px 0 40px;
+}
+.c_btn {
+  background-color: #ffc000;
+  border-radius: 30px;
+}
+.c_btn:hover{
+  background-color: #eaeaf2;
+  color: black;
+}
+
+/*banner end*/
+/*about start*/
+.about{
+  margin: 80px 0 120px;
+}
+.abt_img{}
+.experiance {
+ 
+  background-color: #ffc000;
+  width: 360px;
+  height: 70px;
+  border-radius: 60px;
+  position: absolute;
+  top: 850px;
+  left: -111px;
+  transform: rotate(-90deg);
+}
+.span_t{
+  font-size: 30px;
+  color: black;
+}
+.abt_text {
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffc000;
+  height: 35px;
+  width: 200px;
+  border-radius: 30px;
+}
+.icon{}
+.text_span{}
+.abt_h {
+  margin: 20px 0 25px;
+  color: black;
+}
+.abt_p {
+  font-size: 16px;
+  color: black;
+}
+
+/*about end*/
+
+/*service start*/
+.service{}
+.service_text {
+  
+  padding-top: 10px;
+  color: black;
+  border-radius: 30px;
+  background-color: #ffc000;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+}
+/*slick slider start*/
+.s_slider{
+  background-color: #42bdc2;
+}
+.warraper{
+  margin: 100px 0;
+}
+.img{
+  padding: 0 10px;
+}
+.b_h1{
+  color: white;
+}
+/*slick slider end*/
+.slider_h {
+  margin-top: 20px;
+  color: black;
+}
+.slider_p {
+  margin: 20px 0 30px;
+  font-size: 18px;
+  color: black;
+  padding-right: 80px;
+}
+
+
+/*service end*/
+
+/*feature start*/
+.feature{}
+.feature_tittle{
+  margin-bottom: 80px;
+}
+.f_btn {
+  width: 200px;
+  height: 70px;
+  background-color: #ffc000;
+  margin-bottom: 30px;
+}
+.f_h {
+  font-size: 42px;
+  color: black;
+  margin-bottom: 20px;
+}
+.f_p {
+  font-size: 16px;
+  color: black;
+}
+.c_li{
+  font-size: 16px;
+  color: black;
+}
+.feature_img{
+  margin-top: 20px;
+}
+/*feature end*/
+
+/*rent car start*/
+.taxi_rent {
+  margin: 80px 0 100px;
+}
+.s_item {
+  width: 31%;
+  box-shadow: 1px 0px 5px 2px;
+  margin-right: 20px;
+}
+.texi_img {
+  background-color: #f0f3f3;
+  padding: 20px;
+}
+.rent_text {
+  margin-top: 50px;
+  background-color: black;
+}
+.t_icon {
+  top: -40px;
+  position: relative;
+  margin: 0 155px;
+  background-color: #ffc000;
+  height: 90px;
+  width: 90px;
+  border-radius: 59px;
+  border: 6px solid white;
+}
+.icon_s {
+  margin-top: 10px;
+}
+.t_tittle{}
+.t_h3{}
+.tittle_p{}
+
+/*rent car end*/
+
+/*apps section start*/
+.apps {
+  background-color: black;
+  padding: 80px 0 100px;
+}
+.apps_text{}
+.apps_p {
+  font-size: 20px;
+  color: #ffc000;
+}
+.apps_h {
+  color: white;
+  margin: 20px 0 30px;
+  padding-right: 230px;
+}
+.apps_p2 {
+  color: white;
+  font-size: 16px;
+  padding-right: 50px;
+}
+.apps_btn {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 60px;
+  width: 260px;
+  height: 90px;
+  margin-right: 50px;
+  border-radius: 100px;
+}
+
+.apps_img{}
+/*apps section end*/
+
+
+
+
+
+/*footer section start*/
+.footer .foo-top {
+  background-color: #162b45;
+  padding: 100px 0;
+}
+
+
+.footer .widget-title {
+  color: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+.widget-navigation li a {
+  color: #999;
+  display: block;
+  margin-bottom: 5px;
+}
+.widget .widget-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+
+.instra1 {
+  margin: 0 10px 10px 0;
+  float: left;
+}
+.footer .foo-btm {
+  background-color: #10233a;
+}
+
+.f_add {
+  text-decoration: none;
+  color: #999;
+}
+.f_padd {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.f_btn{
+  width: 310px;
+  height: 50px;
+}
+.social_link{
+ 
+    float: left;
+    margin-right: 20px; 
+
+}
+ul li a{
+  text-decoration: none;
+}
+/*footer section end*/ 
